@@ -18,6 +18,6 @@ function animation() {
         ttop--
         box.style.top = ttop+'px'
     }
-    setTimeout(animation, 1)
+    setTimeout(animation, 0)
 }
 animation()
