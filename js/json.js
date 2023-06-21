@@ -1,7 +1,7 @@
 const btn = document.querySelector('.btnajax')
 btn.addEventListener('click', () => {
     const request = new XMLHttpRequest()
-    request.open("GET", "data.json")
+    request.open("GET", "../json/data.json")
     request.setRequestHeader("Content-type", "application/json")
     request.send()
     request.onload = () => {
@@ -18,7 +18,7 @@ btn.addEventListener('click', () => {
     }
 })
 const request = new XMLHttpRequest()
-request.open("GET", "new.json")
+request.open("GET", "../json/new.json")
 request.setRequestHeader("Content-type", "application/json")
 request.send()
 request.onload = () => {
