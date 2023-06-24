@@ -22,7 +22,7 @@ request.open("GET", "../json/new.json")
 request.setRequestHeader("Content-type", "application/json")
 request.send()
 request.onload = () => {
-    const data = JSON.parse(request.response)
+    const data = JSON.parse(request.response)   
     console.log(data[0]);
     console.log(data[1]);
     console.log(data[2]);

@@ -7,7 +7,9 @@
     align-items: center;
     width: 100%;
 }
-
+body {
+    text-align: center;
+}
 .inner_header {
     height: 100%;
     display: flex;
@@ -102,6 +104,53 @@
     position: absolute;
     left: 0;
     background-color: red;
+}
+.accept {
+    width: 70px;
+    height: 30px;
+    margin-top: 15px;
+    background-color: #3c8dc4;
+    color: white;
+    border-radius: 5px;
+    border: 1px;
+}
+/* HW2 */
+.hw2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.zero {
+    color: #2c2d2f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.stop {
+    height: 30px;
+    width: 70px;
+    background-color: rgb(202, 29, 29);
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px;
+}
+.start {
+    height: 30px;
+    width: 80px;
+    background-color: rgb(17, 218, 34);
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px;
+}
+.clear {
+    height: 30px;
+    width: 60px;
+    background-color: rgb(203, 224, 12);
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px;
+    
 }
 /* TAB SLIDER */
 
@@ -221,4 +270,33 @@
     width: 100% !important;
     margin-top: 10px;
 }
+/* HW4 */
+.btnajax {
+    width: 80px;
+    height: 30px;
+    background-color: #13b8ce;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px;
+}
 
+/* currency */
+.wrapperCur {
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    margin-top: 40px;
+}
+.usd {
+    margin-top: 50px;
+}
+.euro {
+    margin-top: 50px;
+}
+.curinp {
+    padding: 10px 20px;
+}
+.curlab {
+    font-style: 20px;
+} 
