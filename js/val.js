@@ -17,10 +17,10 @@ const convert = (currency, targetInput, targetInputSecond, isTrue) => {
                 targetInputSecond.value = (currency.value / response.euro).toFixed(2)
             } else if (currency === usd) {
                 targetInput.value = (currency.value * response.usd).toFixed(2);
-                targetInputSecond.value = (currency.value * response.usd) / response.euro.toFixed(2)
+                targetInputSecond.value = ((currency.value * response.usd) / response.euro).toFixed(2)
             } else {
                 targetInput.value = (currency.value * response.euro).toFixed(2)
-                targetInputSecond.value = (currency.value * response.usd) / response.euro.toFixed(2)
+                targetInputSecond.value = ((currency.value * response.usd) / response.euro).toFixed(2)
             }
             currency.value === '' && (targetInput.value = '')
         }
