@@ -300,3 +300,44 @@ h2 {
 .curlab {
     font-style: 20px;
 } 
+/* FETCH */
+
+.codWrapper {
+    width: 300px;
+}
+
+.fetchButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #000;
+    color: white;
+    transition: .4s;
+}
+
+button:hover {
+    background: none;
+    color: black;
+    cursor: pointer;
+}
+
+.fetchBox {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+}
+
